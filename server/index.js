@@ -21,7 +21,7 @@ app.use(cors(corsConfig));
 app.use(morgan('tiny'));
 app.disable('x-powered-by');
 
-const port = process.env.PORT || 8700;
+const port = process.env.PORT || 8080;
 
 const connect = () => {
     mongoose.set('strictQuery', true);
